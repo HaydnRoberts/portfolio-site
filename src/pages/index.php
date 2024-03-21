@@ -7,8 +7,9 @@
     <title>Haydn Roberts' portfolio</title>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">
+    <h1>
         Hello world!
     </h1>
+    <p class="text-3xl font-bold underline text-eastern-blue-500">test</p>
 </body>
 </html>
