@@ -2,8 +2,8 @@
 module.exports = {
   content: ["./src/**/*.{html,js,php}"],
   theme: {
-    extend: {},
-    colors: {
+    extend: {
+      colors: {
       "eastern-blue-100": "#2596be",
       "eastern-blue-200": "#2187ab",
       "eastern-blue-300": "#1e7898",
@@ -23,6 +23,12 @@ module.exports = {
       "light-eastern-blue-800": "#51abcb",
       "light-eastern-blue-900": "#3ba1c5",
     },
+    spacing: {
+      '128': '32rem',
+      '144': '36rem',
+    },
+  },
+    
   },
   plugins: [],
 }
