@@ -548,6 +548,10 @@ video {
   margin: auto;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -575,6 +579,11 @@ video {
   background-color: rgb(124 192 216 / var(--tw-bg-opacity));
 }
 
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -582,6 +591,10 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-2xl {
@@ -608,7 +621,16 @@ video {
   font-weight: 700;
 }
 
+.text-eastern-blue-300 {
+  --tw-text-opacity: 1;
+  color: rgb(30 120 152 / var(--tw-text-opacity));
+}
+
 .text-eastern-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(15 60 76 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
